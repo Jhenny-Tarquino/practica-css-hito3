@@ -1,0 +1,80 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0b00a3 0%, #fcdc25 100%);
+}
+
+.Encabezado {
+    position: relative;
+    color: beige;
+     text-align: center;
+     background-color: darkblue;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     
+}
+
+.Encabezado__titulo{
+
+font-size: 40px
+}
+.linea{
+    width: 500px;
+}
+.Encabezado__parrafo{
+position: relative;
+left: 5px;
+right: 150px;
+text-align: center;
+}
+.EJERCICIOS{
+    color: black;
+
+    }
+.Ejercicios__1{
+   position: relative;
+   top: 5px ;left: 30px;
+    background-color: bisque;
+   width: 50%;
+   padding: 16px;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.422);
+}    
+.Ejercicios__2{
+    background-color: bisque;
+    width: 50%;
+   position: relative;
+   top: 5px;left: 30px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.422);
+}    
+.Ejercicios__3{
+    background-color: bisque;
+    position: relative;
+    top: 5px;left: 30px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.422);
+}   
+
+.pie {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #444;
+  }
+  .comentario {
+    background-color: #f25c54;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    transition: background 0.3s ease;
+  }
+
